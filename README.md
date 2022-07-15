@@ -1,5 +1,6 @@
 # pyscript_demo
 
+Demostration of PyScript, which direct Python codes running in HTML.
 
 Reference:
 
