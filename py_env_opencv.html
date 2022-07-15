@@ -1,0 +1,21 @@
+<html>
+    <head>
+      <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+      <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+      <py-env>
+        - Pillow
+        - opencv-python
+      </py-env>
+    </head>
+
+  <body>
+    <h1>Let's plot random numbers</h1>
+    <div id="plot"></div>
+    <py-script output="plot">
+from PIL import Image
+#import cv2
+#print(cv2.__version__)
+print("importPIL")
+    </py-script>
+  </body>
+</html>
